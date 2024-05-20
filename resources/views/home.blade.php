@@ -8,9 +8,19 @@
 
 </head>
 <body>
-    <div>
-        <h1 class="text-center p-5">Hello World</h1>
-    </div>
+    <header>
+    @include('/header/header')
+    </header>
+
+    <main>
+        <div class="text-center p-5">
+            <h1>Hello World</h1>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
 
 
 
